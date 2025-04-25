@@ -1,4 +1,4 @@
-# flutter_basics
+# Quiz-App
 
 A new Flutter project.
 
