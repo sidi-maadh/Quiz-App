@@ -20,7 +20,7 @@ class QuestionItem extends StatelessWidget {
           ),
           const SizedBox(height: 8.0),
           Text(
-            'Answer and get points :',
+            'Answer and get points',
             style: Theme.of(context).textTheme.titleLarge!.copyWith(
               color: const Color.fromARGB(255, 110, 183, 243),
             ),
