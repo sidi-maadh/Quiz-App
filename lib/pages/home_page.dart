@@ -83,7 +83,8 @@ class _HomePageState extends State<HomePage> {
                         width: double.infinity,
                         child: ElevatedButton(
                           onPressed: () {
-                            if (questionIndex + 1 < questions.length && questionCounter < questions.length) {
+                            if (questionIndex + 1 < questions.length &&
+                                questionCounter < questions.length) {
                               setState(() {
                                 questionIndex += 1;
                                 questionCounter += 1;
