@@ -14,13 +14,13 @@ class QuestionItem extends StatelessWidget {
         children: [
           Text(
             questionItem.title,
-            style: Theme.of(context).textTheme.headlineSmall!.copyWith(
-              color: Colors.blue,
-            ),
+            style: Theme.of(
+              context,
+            ).textTheme.headlineSmall!.copyWith(color: Colors.blue),
           ),
           const SizedBox(height: 8.0),
           Text(
-            'Answer and get points',
+            'Answer and get points :',
             style: Theme.of(context).textTheme.titleLarge!.copyWith(
               color: const Color.fromARGB(255, 110, 183, 243),
             ),
